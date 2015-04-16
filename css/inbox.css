@@ -1,0 +1,193 @@
+body
+{
+	padding:0;
+	font-family:Arial, Helvetica, sans-serif;
+	font-size: 14px;
+	background: #f2f2f2;
+}
+
+a
+{
+	text-decoration: none ! important; 
+}
+
+.mainBody
+{
+	margin-left:auto;
+	margin-right: auto;
+}
+
+.topbar
+{
+	height:40px;
+	background: #D91A40;
+}
+
+.topbaricon
+{
+	float:right;
+	height:70%;
+	padding-top:5px;
+	padding-bottom:5px;
+	padding-right:10px;
+	padding-left:10px;
+}
+
+.topbarprofiletext
+{
+	text-decoration: none;
+	float: right;
+	color: white;
+	margin-top: 12px;
+}
+
+.main
+{
+	width:900px;
+	height:488px;
+	margin-left:auto;
+	margin-right:auto;
+	margin-top:20px;
+	border: solid 1px #bbb;
+	padding:10px;
+}
+
+.mainbar
+{
+	width:100%;
+	height:75px;
+}
+
+.composebuttoncontainerouter
+{
+	width:29%;
+	height:100%;
+	float:left;
+}
+
+.composebuttoncontainerinner, .composebuttoncontainerinner:hover
+{
+	margin-top:10px;
+	margin-left:auto;
+	margin-right:auto;
+	width:80%;
+	height:60%;
+	border: solid 1px #bbb;
+}
+
+.composebuttoncontainerinner:hover
+{	
+	background: #ddd;
+}
+
+.othertext
+{
+	margin:10px;
+	font: 160% arial;
+	color: #4F81BD;	
+}
+
+.currenttopiccontainer
+{
+	width:40%;
+	height:100%;
+	float:left;
+}
+
+.currenttopic
+{
+	margin:18px;
+	font: 220% arial;
+	color: #4F81BD;
+}
+
+.othertopiccontainerouter
+{
+	width:29%;
+	height:100%;
+	float:left;
+}
+
+.othertopiccontainerinner, .othertopiccontainerinner:hover
+{
+	margin-top:10px;
+	margin-left:auto;
+	margin-right:auto;
+	width:80%;
+	height:60%;
+	border: solid 1px #bbb;
+}
+
+.othertopiccontainerinner:hover
+{	
+	background: #ddd;
+}
+
+.messagetablecontainer
+{
+	margin-top:10px;
+	height:405px;
+	overflow-y: auto;
+}
+
+.messagetable
+{
+	width:92%;
+	margin-left:3%;
+	text-align: center;
+}
+
+.messagetable td, .messagetable th
+{
+	border: solid 1px #bbb;
+	padding:5px;
+}
+
+.messagetable tbody tr:hover
+{
+	background: #ddd;
+	cursor: pointer;
+}
+
+.messagetablehead
+{
+	background: #29415D;
+	color:white;
+}
+
+.footer
+{
+	margin-top: 38px;
+	margin-left:2px;
+	margin-right:0px;
+	margin-bottom:0px;
+	height: 30px;
+}
+
+.footer a
+{
+	text-decoration: none;
+}
+
+.footerobject, .footerobject:hover
+{
+	height:100%;
+	width:24.85%;
+	background: #29415D;
+	float:left;
+	border: solid 1px #bbb;
+}
+
+.footerobject:hover
+{
+	background: #D91A40;
+}
+
+.footeritem
+{
+	font-size: 16px;
+	color: white;
+	margin-top:2%;
+	margin-bottom:2%;
+	padding:0px;
+}
