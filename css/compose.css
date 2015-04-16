@@ -1,0 +1,99 @@
+body
+{
+	padding:0;
+	font-family:Arial, Helvetica, sans-serif;
+	font-size: 14px;
+	background: #f2f2f2;
+}
+
+a
+{
+	text-decoration: none ! important; 
+}
+
+.mainBody
+{
+	margin-left:auto;
+	margin-right: auto;
+}
+
+.topbar
+{
+	height:40px;
+	background: #D91A40;
+}
+
+.topbaricon
+{
+	float:right;
+	height:70%;
+	padding-top:5px;
+	padding-bottom:5px;
+	padding-right:10px;
+	padding-left:10px;
+}
+
+.topbarprofiletext
+{
+	text-decoration: none;
+	float: right;
+	color: white;
+	margin-top: 12px;
+}
+
+.main
+{
+	width:600px;
+	height:505px;
+	margin-top:20px;
+	margin-left:auto;
+	margin-right:auto;
+	padding-top:20px;
+	border: solid 1px #bbb;
+}
+
+.composeheading
+{
+	margin:0px;
+	padding:0px;
+	font: 170% arial;
+	color: #4F81BD;
+}
+
+
+.footer
+{
+	margin-top: 21px;
+	margin-left:2px;
+	margin-right:0px;
+	margin-bottom:0px;
+	height: 30px;
+}
+
+.footer a
+{
+	text-decoration: none;
+}
+
+.footerobject, .footerobject:hover
+{
+	height:100%;
+	width:24.85%;
+	background: #29415D;
+	float:left;
+	border: solid 1px #bbb;
+}
+
+.footerobject:hover
+{
+	background: #D91A40;
+}
+
+.footeritem
+{
+	font-size: 16px;
+	color: white;
+	margin-top:2%;
+	margin-bottom:2%;
+	padding:0px;
+}
